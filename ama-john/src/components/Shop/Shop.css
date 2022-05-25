@@ -1,0 +1,26 @@
+.shop_main_text_area{
+    display: flex;
+}
+.shop_left_area{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.shop_right_area {
+    flex: 0 0 25%;
+    max-width: 25%;
+    background: rgba(255, 153, 0, 0.3);
+}
+.shop_left_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+}
+
+/* Shop Right area start  */
+.shop_right_area h4 {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
